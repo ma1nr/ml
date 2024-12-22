@@ -1,0 +1,136 @@
+@media screen and (max-width:1620px) {
+    #services-section {
+        width: 95%;
+    }
+    .services-service-card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1115px) {
+    .hero-service-header {
+        font-size: 3rem;
+    }
+    .content-container::before {
+        width: 65%;
+    }
+    .section-header {
+        font-size: 2.1rem;
+    }
+    .services-service-header {
+        font-size: 2rem;
+    }
+    .center-service-content {
+        margin-left: 2em;
+    }
+    .left-service-img {
+        width: 400px;
+    }
+    .left-service-img img {
+        width: 100%;
+    }
+    
+    .our-excursion-main-container {
+        width: 100%;
+        margin-top: 1em;
+    }
+    
+    .main-h-desc {
+        font-size: 1.2rem;
+    }
+    #description {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .services-service-card {
+        flex-direction: column;
+    }
+    .center-service-content {
+        
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .hero-service-header,
+    .section-header {
+        font-size: 2rem;
+    }
+    .service-content-all-services ul:last-child {
+        margin-left: 2em;
+    }
+    .center-service-content {
+        margin-top: 1em;
+    }
+    .service-content-dis>ul {
+        margin-bottom: 1em;
+    }
+    .center-service-content {
+        margin-left: .5em;
+    }
+    .services-service-card {
+        padding: 0;
+    }
+    .service-content-dis>ul li {
+        font-size: 1rem;
+        line-height: 1.6em;
+    }
+    .service-content-all-services ul li {
+        max-width: 200px;
+        line-height: 1.8em;
+        font-size: .9rem;
+    }
+    
+    .desc-main-container {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1em;
+    }
+    .desc-container:last-child {
+        transform: translateY(-20px);
+    }
+    .desc-container li {
+        list-style: none;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .hero-service-header,
+    .section-header,
+    .services-service-header,
+    .center-service-header h3 {
+        font-size: 1.4rem;
+        font-size: 1.8rem;
+    }
+    .service-btn-header h2 {
+        font-size: 1rem;
+        line-height: 1.6em;
+    }
+    .service-btn-icon i {
+        font-size: 1.4rem;
+    }
+    .left-service-img {
+        width: 95%;
+        margin-top: .5em;
+    }
+    .services-service-container {
+        overflow: hidden;
+    }
+    .service-content-all-services ul:last-child {
+        margin-left: 1.2em;
+    }
+    
+    .our-excursion-card {
+        min-width: 90%;
+        max-width: 90%;
+        margin: 2.5em 0;
+    }
+    .our-excursion-card-img-container {
+        width: 50%;
+    }
+}
